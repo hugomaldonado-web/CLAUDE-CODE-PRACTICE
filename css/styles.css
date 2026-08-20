@@ -51,6 +51,10 @@ section {
   padding: 1.75rem;
 }
 
+section + section {
+  margin-top: 1.5rem;
+}
+
 section h2 {
   margin-top: 0;
   font-size: 1.35rem;
@@ -58,6 +62,16 @@ section h2 {
 
 section p {
   color: var(--color-text-muted);
+}
+
+section ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--color-text-muted);
+}
+
+section li + li {
+  margin-top: 0.4rem;
 }
 
 footer {
